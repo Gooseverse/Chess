@@ -1,0 +1,20 @@
+const moves = [
+    { name: "Swiss Slide", description: "Slide the cheese in a zig-zag pattern." },
+    { name: "Cheddar Roll", description: "Gently roll the cheese in a circular motion." },
+    { name: "Gouda Flip", description: "Carefully flip the cheese and catch it with style!" }
+];
+
+let currentMoveIndex = 0;
+
+const cheeseBlock = document.getElementById("cheeseBlock");
+const moveButton = document.getElementById("moveButton");
+
+moveButton.addEventListener("click", () => {
+    if (currentMoveIndex < moves.length) {
+        cheeseBlock.innerHTML = moves[currentMoveIndex].description;
+        currentMoveIndex++;
+    } else {
+        cheeseBlock.innerHTML = "You've mastered all the cheese moves!";
+        moveButton.disabled = true;
+    }
+});
