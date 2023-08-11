@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cheese Training Game</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Cheese Training Game</h1>
+    <p>Follow the instructions to learn the cheese moves:</p>
+    <div id="cheeseBlock" class="cheese"></div>
+    <button id="moveButton">Next Move</button>
+    <script src="script.js"></script>
+</body>
+</html>
