@@ -1,0 +1,12 @@
+/* Add your CSS styles for the cheese and other elements here */
+.cheese {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid orange;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
